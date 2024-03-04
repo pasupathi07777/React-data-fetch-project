@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.App{
+    width: 100%;
+    /* height: 100vh; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.form{
+    display: flex;
+    
+}
+.form{
+    width: 100%;
+    display: flex;
+}
+.form button{
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+   
+   
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin:0  2px;
+}
+.form button:hover{
+    background-color: black;
+    color: #fff;
+}
+.select_btn{
+
+    background-color: black;
+    
+    color:#fff;
+
+   
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.u_list{
+    width: 100%;
+    height: 100%;
+  
+    
+    
+   
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.u_list li{
+   background-color: #f7f1e3;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+  
+     
+   
+    list-style-type: none;
+  
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tdata{
+    border: 2px solid;
+    text-align: center;
 }
