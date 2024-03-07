@@ -25,7 +25,7 @@ function App() {
 
         }
         fetch_data()
-    }, [byn_name])
+    }, [byn_name,LINK])
     return (
         <div className='App'>
 
