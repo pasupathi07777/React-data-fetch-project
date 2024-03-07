@@ -4,7 +4,7 @@ import Items from './Items'
 const List_items = ({data}) => {
   return (
     <ul className='u_list'>
-        {/* {console.log(data)} */}
+    
       {data.map(list=>(
         <Items key={list.id} list={list}/>
       ))}

@@ -5,14 +5,12 @@ const Table = ({ data}) => {
   return (
    <table>
     <tbody>
-        <tr>
-            {data.map(datas=>(
-              <Row datas={datas}/>
-              // console.log(datas)
+    {data.map(datas=>(
+              <Row key={datas.id} datas={datas}/>
+             
              
             
            ))}
-        </tr>
     </tbody>
    </table>
   )

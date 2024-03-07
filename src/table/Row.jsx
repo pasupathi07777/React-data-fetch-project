@@ -10,7 +10,7 @@ const Row = ({datas}) => {
                 )
             })} */}
             {Object.entries(datas).map(([key,val])=>{
-                // console.log(valw)
+            
                 return(
                     <Colm key={key} val={JSON.stringify(val)} />
                 )
